@@ -1,0 +1,120 @@
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+.titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+    border-bottom: solid 2px;
+    padding-bottom: 17px
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.envoi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+label {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+input {
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 100%;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    transition: all 0.5s ease;
+}
+
+
+input:hover{
+    box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+    background: #d10000;
+}
+input:focus{
+    background: #d10000;
+    outline: 0;
+    box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
+}
+
+textarea {
+    box-shadow: inset #abacaf 0 0 0 2px;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+    appearance: none;
+    width: 100%;
+    position: relative;
+    border-radius: 3px;
+    padding: 9px 12px;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    height: 120px;
+    transition: all 0.5s ease;
+}
+
+
+textarea:hover{
+    box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+    background: #d10000;
+}
+textarea:focus{
+    background: #d10000;
+    outline: 0;
+    box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
+}
+
+.box_int {
+    background-color: rgb(90 90 90 / 23%);
+    backdrop-filter: blur(7px);
+    width: 425px;
+    height: 403px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_voir {
+    display: flex;
+    height: 30px;
+    width: 153px;
+    border-radius: 7px;
+    background-color: darkgrey;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px;
+    border-color: black;
+    transition: 0.5s;
+    font-size: 19px;
+}
+
+.box_voir:hover {
+    background-color: #d10000;
+}
